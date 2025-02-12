@@ -22,6 +22,8 @@ var Subscription = db.define('subscription', {
     ,freezeTableName : true
 });
 
+
+
 await db.sync();
 
 export default Subscription;
